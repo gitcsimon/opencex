@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'ambleregular';
+    src: url('font/Amble-Regular-webfont.eot');
+    src: url('font/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Amble-Regular-webfont.woff') format('woff'),
+         url('font/Amble-Regular-webfont.ttf') format('truetype'),
+         url('font/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	font-size: 1em;
+	font-family: ambleregular, "Arial Black", Arial, Verdana, sans-serif;
+	text-align: left;
+	color: rgb(63,105,66);
+    color: rgba(63,105,66,1);
+	background-image: url("img/fond.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+h1
+{
+	font-size: 2em;
+	font-family: ambleregular, "Arial Black", Arial, Verdana, sans-serif;
+	text-align: Center;
+	color: rgb(63,105,66);
+    color: rgba(63,105,66,1);
+}
+
+.imgfloat
+{
+	float: left;
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+	box-shadow: 5px 3px 0px green;
+}
+.imgdessous
+{
+	clear: both;
+}
+
+h1 + p
+{
+	font-size: 1.2em;
+	font-family: ambleregular, "Arial Black", Arial, Verdana, sans-serif;
+	text-align: Center;
+	font-style : italic;
+	color: rgb(63,105,66);
+    color: rgba(63,105,66,1);
+}
+
+h2
+{
+
+	font-size: 1.5em;
+	font-family: ambleregular, impact, "Arial Black", Arial, Verdana, sans-serif;
+	text-align: left;
+	font-weight: bold;
+	color: rgb(63,105,66);
+    color: rgba(63,105,66,1);
+	border-radius: 10px 10px 10px 10px;
+	border-style : dotted;
+	border-color: green;
+	
+}
+
+strong
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: gray;
+}
+
+
+
+
